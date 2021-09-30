@@ -1,0 +1,62 @@
+resource.txt
+
+TEXT-BASED
+
+- filler text -
+
+Fling Posse/HypMic info
+https://hypnosis-mic.fandom.com/f
+https://hypnosis-mic.fandom.com/wiki/Fling_Posse
+
+Latin text generator
+https://generator.lorem-ipsum.info/_latin
+
+- end of filler text resources -
+
+COVID Protocols
+https://www.ncf.edu/cwc/covid-19-protocols-for-campus-recreation/
+
+List of US states (to be fair i could have typed them all out but it's a long list); it's just a list of all the <option value></option> of the US states.
+https://www.freeformatter.com/usa-state-list-html-select.html
+
+-------------------------------------------------------------------------------------
+
+IMAGE/DESIGN-BASED
+
+- fling posse/hypmic images -
+
+logo:
+https://static.wikia.nocookie.net/hypnosis-mic/images/7/7c/Logo_shibuya_color2.png
+- the logo was edited/recolored myself (using CSP/Clip Studio Paint, hence the .clip file in the subfolder)
+* edited ver. --> "fling-posse-tour-banner-no-padding.png"
+
+https://static.wikia.nocookie.net/hypnosis-mic/images/9/92/DZE5UlzYT7E.jpg/revision/latest?cb=20191222160440
+
+https://static.wikia.nocookie.net/hypnosis-mic/images/4/44/Members_Shibuya.png/revision/latest?cb=20190926161704
+
+- end of fling posse/hypmic images -
+
+
+Site/design inspiration:
+https://bandzoogle.com/sample-band-sites
+https://www.twentyonepilots.com/
+
+HTML/RBG/hex color editor/color picker (?):
+https://htmlcolorcodes.com/
+https://htmlcolorcodes.com/color-names/
+
+-------------------------------------------------------------------------------------
+
+CODE-BASED (text-based)
+
+CSS references:
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_float5
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_header
+
+HTML iframe embeds:
+https://open.spotify.com/embed/track/1NKFGfXwYemK2Stozsl6Un
+https://open.spotify.com/embed/track/6u24qPPY0w9rJV8WnF6cpn
+https://open.spotify.com/embed/album/2JILUvLYmUPwVVWavanNIm
+
+I referred to previous assignments and the course textbook as reference (emphasis on the textbook).
+

@@ -1,0 +1,432 @@
+h1 {
+  font-size: 25px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin: 50px;
+}
+
+
+
+body {
+  background-color: DarkSlateGray;
+  font-size: 17px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+
+/* ------------ navigational top header styling ------------*/
+
+/*  header styling (html+CSS) resources/references
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_float5
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_header
+*/ 
+
+ul.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EE64BC; /* hot pinkish color */
+}
+
+li.header {
+  float: left;
+}
+
+li.header a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+li.header a:hover {
+  background-color: #FDA9DF; /* hot pinkish color FADE (normal pink) */
+  color: black;
+}
+
+li.header a:focus {
+  background-color: #C0378F; /* hot pinkish color DARK (fuschia) */
+  color: white;
+}
+
+/* ------------ navigational top header styling END ------------ */ 
+
+
+/* ------------------------------------------------ home page ------------------------------------------------ */ 
+/* ------------------------ tour section styling ------------------------ */ 
+
+#tour-section {
+  align-self: center;
+  text-align: left;
+  overflow: scroll;
+
+  width: 900px;
+  height: auto;
+
+  background-color: slategray;
+  border-radius: 5px;
+
+  padding: 10px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+}
+
+/* tour section layout */
+ul.tour {
+  display: inline;
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.tour {
+  padding: 10px;
+  float: left;
+}
+/* tour section layout END */
+
+/* tour button styling */
+button.tour {
+
+  display: inline-block;
+  position: relative;
+  left: 18%;
+
+  padding: 9px;
+  margin: 25px;
+
+  border-radius: 6px;
+  font-size: 21px;
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: white;
+
+  background-image: linear-gradient(#FDA9DF 0%, #EE64BC 51%, #C0378F 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 7px 7px 4px 0px;
+
+  cursor: pointer;
+}
+
+button.tour:hover {
+  background: #FDA9DF;
+}
+
+button.tour:active {
+  background: #C0378F;
+}
+/* tour button styling END */
+
+
+/* ------------------------ tour section styling END ----------------------- */ 
+
+/* ------------------------ safety section styling ------------------------ */ 
+
+#safety-section {
+  align-self: center;
+  text-align: left;
+  overflow: scroll;
+
+  width: 90%;
+  height: auto;
+
+  background-color: slategray;
+  border-radius: 5px;
+
+  padding: 20px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+}
+
+/* safety section layout END */
+ul.safety {
+  display: inline;
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.safety {
+  padding: 10px;
+  float: left;
+}
+/* safety section layout END */
+
+/* "more info" safety button styling */
+button.safety {
+
+  display: inline-block;
+  position: static;
+  left: 10%;
+
+  padding: 9px;
+  margin: 25px;
+
+  border-radius: 6px;
+  font-size: 21px;
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: white;
+
+  background-image: linear-gradient(#FDA9DF 0%, #EE64BC 51%, #C0378F 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 7px 7px 4px 0px;
+
+  cursor: pointer;
+}
+
+button.safety:hover {
+  background: #FDA9DF;
+}
+
+button.safety:active {
+  background: #C0378F;
+}
+/* "more info" safety button styling END */
+/* ------------------------ safety section styling END ----------------------- */ 
+
+/* ------------------------------------------------ home page END ------------------------------------------------ */ 
+
+/* ------------------------------------------------ tour page ------------------------------------------------ */ 
+#tour-page {
+  align-self: center;
+  text-align: left;
+  overflow: scroll;
+  color: black;
+
+  width: 900px;
+  height: auto;
+
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 5px;
+
+  padding: 10px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* tour page layout */
+ul.ticket-info {
+  display: inline;
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+li.ticket-info {
+  padding: 10px;
+  float: left;
+}
+/* tour page layout END */
+
+/* tour page button styling */
+button.ticket-info {
+
+  display: inline-block;
+  float: right;
+
+  padding: 9px;
+  margin: 20px;
+
+  border-radius: 6px;
+  font-size: 21px;
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: white;
+
+  background-image: linear-gradient(#FDA9DF 0%, #EE64BC 51%, #C0378F 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 7px 7px 4px 0px;
+
+  cursor: pointer;
+}
+
+button.ticket-info:hover {
+  background: #FDA9DF;
+}
+
+button.ticket-info:active {
+  background: #C0378F;
+}
+/* tour page button styling END */
+/* ------------------------------------------------ tour page END ------------------------------------------------ */ 
+
+/* ------------------------------------------------ music page ------------------------------------------------ */ 
+#music-page {
+  align-self: center;
+  text-align: center;
+  color: black;
+
+  width: 85%;
+  height: auto;
+  overflow: scroll;
+
+  padding: 10px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+#music-headers {
+  align-self: center;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+
+  width: 50%;
+  height: 5%;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 5px;
+
+  padding: 15px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+/* music page layout */
+ul.music-page {
+  display: inline;
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+li.music-page {
+  padding: 10px;
+  float: left;
+}
+/* music page layout END */
+
+/* ------------------------------------------------ music page END ------------------------------------------------ */ 
+
+
+/* ------------------------------------------------ about page ------------------------------------------------ */ 
+#about-page {
+  align-self: center;
+  text-align: left;
+  color: black;
+
+  width: 85%;
+  height: auto;
+  overflow: scroll;
+
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 5px;
+
+  padding: 20px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+/* ------------------------------------------------ about page END ------------------------------------------------ */ 
+
+
+/* ------------------------------------------------ safety page ------------------------------------------------ */ 
+h1.covid {
+  font-size: 25px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #000;
+  margin: 10px;
+}
+
+
+#safety-page {
+  align-self: center;
+  text-align: left;
+  color: black;
+
+  width: 85%;
+  height: auto;
+  overflow: scroll;
+
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 5px;
+
+  padding: 20px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+
+/* ------------------------------------------------ safety page END ------------------------------------------------ */ 
+
+/* ------------------------------------------------ buy ticket page ------------------------------------------------ */ 
+#buy-ticket-page {
+  align-self: center;
+  text-align: left;
+  color: white;
+
+  width: 85%;
+  height: auto;
+  overflow: scroll;
+
+  padding: 10px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+input#submit {
+  display: inline-block;
+  float: right;
+
+  padding: 9px;
+  margin: 20px;
+
+  border-radius: 6px;
+  font-size: 21px;
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: white;
+
+  background-image: linear-gradient(#FDA9DF 0%, #EE64BC 51%, #C0378F 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 7px 7px 4px 0px;
+
+  cursor: pointer;
+}
+
+input#submit:hover {
+  background: #FDA9DF;
+}
+
+input#submit:active {
+  background: #C0378F;
+}
+
+/* ------------------------------------------------ buy ticket page END ------------------------------------------------ */ 
+
+/* footer styling */
+footer {
+  position: relative;
+  bottom: -5%;
+  height: 5%;
+  width: 100%;
+
+  padding: 10px;
+
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
